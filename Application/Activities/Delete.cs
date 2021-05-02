@@ -27,6 +27,7 @@ namespace Application.Activities
                 var act=await _context.Activities.FindAsync(request.Id);
 
                 _context.Remove(act);
+                await _context.SaveChangesAsync();
 
                 return Unit.Value;
             }
