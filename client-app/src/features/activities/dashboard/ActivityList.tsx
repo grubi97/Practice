@@ -1,25 +1,25 @@
-import React, { SyntheticEvent, useState } from 'react'
+import { observer } from 'mobx-react-lite';
+import React, { SyntheticEvent, useEffect, useState } from 'react'
 import { Button, Item, Label, Segment } from 'semantic-ui-react';
 import { Activity } from '../../../app/models/activity';
+import { useStore } from '../../../app/stores/store';
 
-interface Props{
-    activities:Activity[];
-    selectActivity:(id:string)=>void;
-    deleteActivity:(id:string)=>void;
-    submitting:boolean
 
-}
-export default function  ActivityList({activities,selectActivity,deleteActivity,submitting}:Props){
+export default observer(function  ActivityList(){
+
 //kod on clinka kad stavis tako arrow funckiju to zanci da se nece odma renderirat nego tek na klik
 const[target,setTarget]=useState('')
+const {activityStore}=useStore()
+const {deleteActivity,activitiesByDate,loading:submitting}=activityStore
 function hadnleActivityDelete(e:SyntheticEvent<HTMLButtonElement>,id:string){
 setTarget(e.currentTarget.name)
 deleteActivity(id)
 }
+
     return(
         <Segment>
             <Item.Group divided>
-            {activities.map(activity=>(
+            {activitiesByDate.map(activity=>(
                 <Item key={activity.id}>
                     <Item.Content>
                         <Item.Header as='a'>{activity.title}</Item.Header>
@@ -30,7 +30,7 @@ deleteActivity(id)
 
                         </Item.Description>
                         <Item.Extra>
-                            <Button onClick={()=>selectActivity(activity.id)} floated='right' content='View' color='blue'/>
+                            <Button onClick={()=>activityStore.selectActivity(activity.id)} floated='right' content='View' color='blue'/>
                             <Button
                             name={activity.id} 
                             loading={submitting && target===activity.id} 
@@ -46,4 +46,4 @@ deleteActivity(id)
         </Segment>
     )
 
-}
+})
