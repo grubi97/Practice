@@ -1,9 +1,8 @@
 import { observer } from 'mobx-react-lite'
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Grid, List } from 'semantic-ui-react'
+import LoadingComponent from '../../../app/layouts/LoadingComponents'
 import { useStore } from '../../../app/stores/store'
-import ActivityDetails from '../details/ActivityDetails'
-import ActivityForm from '../form/ActivityForm'
 import ActivityList from './ActivityList'
 
 
@@ -12,7 +11,13 @@ export default observer( function ActivityDashboard(){
 // width 10 znaci 10 stupaca semantic ima sveukupno 16
 
 const {activityStore}=useStore()
-const {selectedActivity,editMode}=activityStore
+const {loadActivities,activityRegistry}=activityStore
+useEffect(()=>{
+  if(activityRegistry.size<=1)loadActivities();
+},[activityStore])
+
+
+if (activityStore.loadingInitial) return <LoadingComponent content='App loading'/>
     return(
         <Grid>
             
@@ -20,10 +25,6 @@ const {selectedActivity,editMode}=activityStore
                 <ActivityList/>
             </Grid.Column>
             <Grid.Column width='6'>
-                {selectedActivity && !editMode &&
-                <ActivityDetails/>}
-                {editMode &&
-                <ActivityForm/>}
             </Grid.Column>
         </Grid>
     )

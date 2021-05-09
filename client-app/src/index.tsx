@@ -5,11 +5,16 @@ import 'semantic-ui-css/semantic.min.css';
 import App from './app/layouts/App';
 import reportWebVitals from './reportWebVitals';
 import { store, StoreContext } from './app/stores/store';
+import { BrowserRouter } from 'react-router-dom';
 
 //strict mode enforca sav kod nije nije upd to date s react 17, ili je deprekejtan
 
 ReactDOM.render(
-  <StoreContext.Provider value={store}> <App /></StoreContext.Provider>,//provida se konteskt aplikaciji
+  <StoreContext.Provider value={store}>
+    <BrowserRouter>
+    <App />
+    </BrowserRouter> 
+     </StoreContext.Provider>,//provida se konteskt aplikaciji zbog mobx stora, a browserrouter omogucava koristenje react rpoutera
   document.getElementById('root')
 );
 
