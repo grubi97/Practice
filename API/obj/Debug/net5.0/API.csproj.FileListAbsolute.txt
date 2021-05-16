@@ -132,3 +132,6 @@
 /home/grubi/Desktop/Practice/API/obj/Debug/net5.0/ref/API.dll
 /home/grubi/Desktop/Practice/API/obj/Debug/net5.0/API.pdb
 /home/grubi/Desktop/Practice/API/obj/Debug/net5.0/API.genruntimeconfig.cache
+/home/grubi/Desktop/Practice/API/bin/Debug/net5.0/FluentValidation.dll
+/home/grubi/Desktop/Practice/API/bin/Debug/net5.0/FluentValidation.AspNetCore.dll
+/home/grubi/Desktop/Practice/API/bin/Debug/net5.0/FluentValidation.DependencyInjectionExtensions.dll

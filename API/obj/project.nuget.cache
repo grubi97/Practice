@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "gt1sECl324h9LcHY7+o3xDFdqo9H4eblD1/I3RdHa1jcGw8duucSFnGcRryH6euASEuTt89W7T1QIy5MSdTpDw==",
+  "dgSpecHash": "+hnozHkS+jhvNm87d6DWiCAXBJ6kzV3S/GGqD2iCuQ93eHTyFffnu2xslTdgjnC9Azk6QVppQROo+wu7RgdTOw==",
   "success": true,
   "projectFilePath": "/home/grubi/Desktop/Practice/API/API.csproj",
   "expectedPackageFiles": [
     "/home/grubi/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
     "/home/grubi/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.1/automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "/home/grubi/.nuget/packages/fluentvalidation/10.1.0/fluentvalidation.10.1.0.nupkg.sha512",
+    "/home/grubi/.nuget/packages/fluentvalidation.aspnetcore/10.1.0/fluentvalidation.aspnetcore.10.1.0.nupkg.sha512",
+    "/home/grubi/.nuget/packages/fluentvalidation.dependencyinjectionextensions/10.1.0/fluentvalidation.dependencyinjectionextensions.10.1.0.nupkg.sha512",
     "/home/grubi/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/home/grubi/.nuget/packages/mediatr/9.0.0/mediatr.9.0.0.nupkg.sha512",
     "/home/grubi/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/9.0.0/mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
