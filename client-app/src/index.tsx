@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom"; //react native je za mobilne
+import 'react-datepicker/dist/react-datepicker.css'
 import "./app/layouts/styles.css";
 import "semantic-ui-css/semantic.min.css";
 import "react-calendar/dist/Calendar.css";
