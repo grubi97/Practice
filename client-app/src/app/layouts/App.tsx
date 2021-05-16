@@ -10,13 +10,30 @@ import ActivityDetails from "../../features/activities/details/ActivityDetails";
 import { ToastContainer } from "react-toastify";
 import NotFound from "../../features/errors/NotFound";
 import ServerError from "../../features/errors/ServerError";
+import LoginForm from "../../features/users/LoginForm";
+import { useStore } from "../stores/store";
+import LoadingComponent from "./LoadingComponents";
+import ModalContainer from "../common/modals/ModalContainer";
 
 function App() {
   const location = useLocation();
-//Switch radi da su rute ekskluzivne, samo se jedna moze aktivirati a ne istovremeno, nopr za error bi se inace svugde pojavilo
+  const { commonStore, userStore } = useStore();
+
+  useEffect(() => {
+    if (commonStore.token) {
+      userStore.getUser().finally(() => commonStore.setAppLoaded());
+    } else {
+      commonStore.setAppLoaded();
+    }
+  }, [commonStore, userStore]);
+
+  if (!commonStore.appLoaded)
+    return <LoadingComponent content="Loading app..." />;
+  //Switch radi da su rute ekskluzivne, samo se jedna moze aktivirati a ne istovremeno, nopr za error bi se inace svugde pojavilo
   return (
     <Fragment>
       <ToastContainer position="bottom-right" hideProgressBar />
+      <ModalContainer />
       <Route exact path="/" component={HomePage} />
       <Route
         path={"/(.+)"} //svaka ruta koja je jednako / + nesta matcha tu rutu
@@ -32,7 +49,8 @@ function App() {
                   path={["/createActivity", "/edit/:id"]}
                   component={ActivityForm}
                 />
-                <Route path='/servererror' component={ServerError} />
+                <Route path="/servererror" component={ServerError} />
+                <Route path="/login" component={LoginForm} />
                 <Route component={NotFound} />
               </Switch>
             </Container>
