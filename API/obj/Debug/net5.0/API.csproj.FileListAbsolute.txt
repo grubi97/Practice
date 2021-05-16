@@ -135,3 +135,15 @@
 /home/grubi/Desktop/Practice/API/bin/Debug/net5.0/FluentValidation.dll
 /home/grubi/Desktop/Practice/API/bin/Debug/net5.0/FluentValidation.AspNetCore.dll
 /home/grubi/Desktop/Practice/API/bin/Debug/net5.0/FluentValidation.DependencyInjectionExtensions.dll
+/home/grubi/Desktop/Practice/API/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/home/grubi/Desktop/Practice/API/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/home/grubi/Desktop/Practice/API/bin/Debug/net5.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/home/grubi/Desktop/Practice/API/bin/Debug/net5.0/Microsoft.Extensions.Identity.Core.dll
+/home/grubi/Desktop/Practice/API/bin/Debug/net5.0/Microsoft.Extensions.Identity.Stores.dll
+/home/grubi/Desktop/Practice/API/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/grubi/Desktop/Practice/API/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll
+/home/grubi/Desktop/Practice/API/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll
+/home/grubi/Desktop/Practice/API/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll
+/home/grubi/Desktop/Practice/API/bin/Debug/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/grubi/Desktop/Practice/API/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.dll
+/home/grubi/Desktop/Practice/API/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
