@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/home/grubi/Desktop/Practice/Domain/Domain.csproj": {}
+    "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "/home/grubi/Desktop/Practice/Domain/Domain.csproj": {
+    "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/grubi/Desktop/Practice/Domain/Domain.csproj",
+        "projectUniqueName": "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/home/grubi/Desktop/Practice/Domain/Domain.csproj",
-        "packagesPath": "/home/grubi/.nuget/packages/",
-        "outputPath": "/home/grubi/Desktop/Practice/Domain/obj/",
+        "projectPath": "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\drgru\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/home/grubi/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\drgru\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,12 +59,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -5,6 +5,8 @@ using Persistence;
 using Domain;
 using FluentValidation;
 using Application.Core;
+using Application.Interfaces;
+using Microsoft.EntityFrameworkCore;
 
 namespace Application.Activities
 {
@@ -20,23 +22,33 @@ namespace Application.Activities
         {
             public CommandValidator()
             {
-                RuleFor(x=>x.Activity).SetValidator(new ActivityValidator());
+                RuleFor(x => x.Activity).SetValidator(new ActivityValidator());
             }
         }
-        public class Handler : IRequestHandler<Command,Result<Unit>>
+        public class Handler : IRequestHandler<Command, Result<Unit>>
         {
             private readonly DataContext _context;
-            public Handler(DataContext context)
+            private readonly IUserAccessor userAccessor;
+            public Handler(DataContext context, IUserAccessor userAccessor)
             {
+                this.userAccessor = userAccessor;
                 this._context = context;
             }
 
             public async Task<Result<Unit>> Handle(Command request, CancellationToken cancellationToken)
             {
+                var user=await _context.Users.FirstOrDefaultAsync(x=>x.UserName==userAccessor.GetUsername());
+                var attendee=new ActivityAttendee{
+                    Activity=request.Activity,
+                    AppUser=user,
+                    IsHost=true
+                };
+                request.Activity.Attendees.Add(attendee);
+                
                 _context.Activities.Add(request.Activity);
 
-                var result=await _context.SaveChangesAsync()>0;
-                if(!result) return Result<Unit>.Failure("Failed to create activity");
+                var result = await _context.SaveChangesAsync() > 0;
+                if (!result) return Result<Unit>.Failure("Failed to create activity");
 
                 return Result<Unit>.Success(Unit.Value);
 

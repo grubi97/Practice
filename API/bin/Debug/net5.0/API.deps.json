@@ -35,6 +35,7 @@
         "dependencies": {
           "Application": "1.0.0",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
+          "Infrastructure": "1.0.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.6",
           "Microsoft.EntityFrameworkCore.Design": "5.0.4",
@@ -939,16 +940,8 @@
           "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
         }
       },
-      "System.Collections.Immutable/5.0.0": {
-        "compile": {
-          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
-        }
-      },
-      "System.ComponentModel.Annotations/5.0.0": {
-        "compile": {
-          "ref/netstandard2.1/System.ComponentModel.Annotations.dll": {}
-        }
-      },
+      "System.Collections.Immutable/5.0.0": {},
+      "System.ComponentModel.Annotations/5.0.0": {},
       "System.Diagnostics.DiagnosticSource/5.0.1": {
         "runtime": {
           "lib/net5.0/System.Diagnostics.DiagnosticSource.dll": {
@@ -1002,6 +995,17 @@
         },
         "compile": {
           "Domain.dll": {}
+        }
+      },
+      "Infrastructure/1.0.0": {
+        "dependencies": {
+          "Application": "1.0.0"
+        },
+        "runtime": {
+          "Infrastructure.dll": {}
+        },
+        "compile": {
+          "Infrastructure.dll": {}
         }
       },
       "Persistence/1.0.0": {
@@ -3084,6 +3088,11 @@
       "sha512": ""
     },
     "Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
