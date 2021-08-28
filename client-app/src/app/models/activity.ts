@@ -1,3 +1,6 @@
+import { boolean } from "yup/lib/locale";
+import { Profile } from "./profile";
+
 export interface Activity {
     id: string;
     title: string;
@@ -6,4 +9,10 @@ export interface Activity {
     category: string;
     city: string;
     venue: string;
+    hostUserName?:string;
+    isCancelled?:boolean;
+    isGoing?:boolean;
+    isHost?:boolean;
+    host?:Profile;
+    attendees?:Profile[]
 }
