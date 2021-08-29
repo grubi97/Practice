@@ -31,12 +31,12 @@ export default function ActivityListItem({ activity }: Props) {
       <Segment>
         <Item.Group>
           <Item>
-            <Item.Image size="tiny" circular src="/assets/user.png" />
+            <Item.Image size="tiny" circular src={activity.host?.image ||"/assets/user.png"} />
             <Item.Content>
               <Item.Header as={Link} to={`/activities/${activity.id}`}>
                 {activity.title}
               </Item.Header>
-              <Item.Description>HOsted by {activity.host?.displayName}</Item.Description>
+              <Item.Description>HOsted by <Link to ={`profiles/${activity.hostUserName}`}>{activity.host?.displayName}</Link></Item.Description>
               {activity.isHost &&(
                 <Item.Description>
                   <Label basic color='orange'>
