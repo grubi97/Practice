@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\API\\API.csproj": {}
+    "C:\\Users\\Gruby\\Desktop\\Practice\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\API\\API.csproj": {
+    "C:\\Users\\Gruby\\Desktop\\Practice\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Gruby\\Desktop\\Practice\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\drgru\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\API\\obj\\",
+        "projectPath": "C:\\Users\\Gruby\\Desktop\\Practice\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\Gruby\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gruby\\Desktop\\Practice\\API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\drgru\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Gruby\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -32,11 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\Application\\Application.csproj"
+              "C:\\Users\\Gruby\\Desktop\\Practice\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Gruby\\Desktop\\Practice\\Application\\Application.csproj"
               },
-              "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\Gruby\\Desktop\\Practice\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Gruby\\Desktop\\Practice\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -100,16 +96,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -118,26 +104,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\Application\\Application.csproj": {
+    "C:\\Users\\Gruby\\Desktop\\Practice\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Gruby\\Desktop\\Practice\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\drgru\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\Application\\obj\\",
+        "projectPath": "C:\\Users\\Gruby\\Desktop\\Practice\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Gruby\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gruby\\Desktop\\Practice\\Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\drgru\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Gruby\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -150,11 +132,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\Domain\\Domain.csproj"
+              "C:\\Users\\Gruby\\Desktop\\Practice\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Gruby\\Desktop\\Practice\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\Persistence\\Persistence.csproj"
+              "C:\\Users\\Gruby\\Desktop\\Practice\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\Gruby\\Desktop\\Practice\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -192,41 +174,27 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\Domain\\Domain.csproj": {
+    "C:\\Users\\Gruby\\Desktop\\Practice\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Gruby\\Desktop\\Practice\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\drgru\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\Gruby\\Desktop\\Practice\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Gruby\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gruby\\Desktop\\Practice\\Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\drgru\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Gruby\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -266,41 +234,27 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\Gruby\\Desktop\\Practice\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Gruby\\Desktop\\Practice\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\drgru\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Gruby\\Desktop\\Practice\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Gruby\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gruby\\Desktop\\Practice\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\drgru\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Gruby\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -313,8 +267,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\Application\\Application.csproj"
+              "C:\\Users\\Gruby\\Desktop\\Practice\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Gruby\\Desktop\\Practice\\Application\\Application.csproj"
               }
             }
           }
@@ -344,41 +298,27 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\Persistence\\Persistence.csproj": {
+    "C:\\Users\\Gruby\\Desktop\\Practice\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\Gruby\\Desktop\\Practice\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\Persistence\\Persistence.csproj",
-        "packagesPath": "C:\\Users\\drgru\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\Persistence\\obj\\",
+        "projectPath": "C:\\Users\\Gruby\\Desktop\\Practice\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\Gruby\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gruby\\Desktop\\Practice\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\drgru\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Gruby\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -391,8 +331,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\drgru\\OneDrive\\Desktop\\Practice\\Domain\\Domain.csproj"
+              "C:\\Users\\Gruby\\Desktop\\Practice\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Gruby\\Desktop\\Practice\\Domain\\Domain.csproj"
               }
             }
           }
@@ -422,22 +362,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

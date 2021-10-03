@@ -1,9 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\drgru\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\drgru\\.nuget\\packages",
-      "C:\\Microsoft\\Xamarin\\NuGet"
+      "C:\\Users\\Gruby\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Gruby\\.nuget\\packages"
     ]
   }
 }
